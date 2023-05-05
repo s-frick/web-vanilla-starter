@@ -1,0 +1,32 @@
+{
+  "name": "web-vanilla-ts",
+  "version": "0.1.0",
+  "description": "TypeScript starter project",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "5.0.4",
+    "vite": "^4.2.1",
+    "vite-plugin-static-copy": "^0.14.0"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": [
+    "typescript",
+    "javascript"
+  ],
+  "staticFiles": {
+    "staticPath": [
+      {
+        "staticPath": "assets",
+        "staticOutDir": "assets"
+      }
+    ]
+  },
+  "type": "module"
+}
